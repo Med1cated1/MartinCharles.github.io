@@ -5970,15 +5970,15 @@ textarea.form-control-lg {
   overflow: hidden;
 }
 .carousel-inner::after {
-  display: block;
+  display: inline-block;
   clear: both;
   content: "";
 }
 
 .carousel-item {
   position: relative;
-  display: none;
-  float: left;
+  display: inline-block;
+ 
   width: 100%;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
